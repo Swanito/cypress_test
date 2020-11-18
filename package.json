@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "npx cypress run && node ./cypress/report/index.js"
+		"test": "npx cypress run && sleep 1 && node ./cypress/report/index.js"
 	},
 	"author": "",
 	"license": "ISC",
