@@ -23,7 +23,7 @@
             "name": "I enter my credentials",
             "result": {
               "status": "passed",
-              "duration": 5654000000
+              "duration": 5762000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I'm logged in",
             "result": {
               "status": "passed",
-              "duration": 1518000000
+              "duration": 962000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I want to book the first available one way flight from 'MAD' to 'AUS' on '12-13-2020' for 2 adults and 1 child",
             "result": {
               "status": "passed",
-              "duration": 41321000000
+              "duration": 40628000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "I enter the payment details using a non valid card",
             "result": {
               "status": "passed",
-              "duration": 12360000000
+              "duration": 10987000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "I should get 'Please enter a valid card number' error message",
             "result": {
               "status": "passed",
-              "duration": 169000000
+              "duration": 133000000
             }
           }
         ]
