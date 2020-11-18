@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    This feature file contains the tests scenarios for the booking system",
+    "keyword": "Feature",
+    "name": "Book Flights",
+    "line": 1,
+    "id": "book-flights",
+    "tags": [],
+    "uri": "book-flight.feature",
+    "elements": [
+      {
+        "id": "book-flights;book-a-flight---error-message-when-entering-an-non-valid-card-number",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Book a Flight - Error message when entering an non valid card number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter my credentials",
+            "result": {
+              "status": "passed",
+              "duration": 5654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I'm logged in",
+            "result": {
+              "status": "passed",
+              "duration": 1518000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I want to book the first available one way flight from 'MAD' to 'AUS' on '12-13-2020' for 2 adults and 1 child",
+            "result": {
+              "status": "passed",
+              "duration": 41321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter the payment details using a non valid card",
+            "result": {
+              "status": "passed",
+              "duration": 12360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should get 'Please enter a valid card number' error message",
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

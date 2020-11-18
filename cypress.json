@@ -1,0 +1,18 @@
+{
+	"baseUrl": "https://www.ryanair.com/ie/en",
+	"integrationFolder": "cypress/integration",
+	"testFiles": "**/*.{feature,features}",
+	"pluginsFile": "cypress/plugins/index.js",
+	"supportFile": "cypress/support/index.js",
+	"env": {
+		"VALID_USERNAME": "jon.gonzalez.lavin@gmail.com",
+		"VALID_PASSWORD": "Ryanair12345"
+	},
+	"screenshotsFolder": "screenshots",
+	"reporter": "mochawesome",
+	"reporterOptions": {
+		"overwrite": false,
+		"html": false,
+		"json": true
+	}
+}
