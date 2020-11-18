@@ -23,11 +23,12 @@ Cypress is not a friend of page object pattern. Instead, we can implement custom
 2. Execute npx cypress open in the project root
 3. Select the desired feature file
 4. The browser will be opened and the tests will run
+5. After the execution run the command node ./cypress/report/index.js if you want to generate the report.
 
 ### Headless way:
 
 1. Navigate to the project root and execute npm install
-2. Execute npx cypress run in the project root
+2. Execute npn run test in the project root. This script will run the test in headless mode and will ooutput the html report.
 
 # Where do I see the test results?
 
